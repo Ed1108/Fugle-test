@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Ed1108/Fugle-test#readme",
   "dependencies": {
+    "axios": "^0.19.0",
     "express": "^4.17.1"
   }
 }
