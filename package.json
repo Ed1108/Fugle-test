@@ -1,0 +1,26 @@
+{
+  "name": "fugle-test",
+  "version": "1.0.0",
+  "description": "A test project for interview",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ed1108/Fugle-test.git"
+  },
+  "keywords": [
+    "fugle",
+    "stock"
+  ],
+  "author": "Ed Chou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ed1108/Fugle-test/issues"
+  },
+  "homepage": "https://github.com/Ed1108/Fugle-test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
