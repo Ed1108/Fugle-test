@@ -10,4 +10,6 @@ expressWs(app);
 limiters.apply(app);
 app.use('/', routes);
 
-app.listen(3000, () => console.log('Server listening on port 3000!'));
+let port = process.env.PORT || 3000;
+let welcome = `Server listening on port ${port}`;
+app.listen(port, () => console.log(welcome));
