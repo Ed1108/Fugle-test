@@ -30,9 +30,9 @@ module.exports = {
                 },
                 handler: (req, res, next) => next() //do nothing, because we want to get current value for each limiter
             });
-            app.use(limiter);
+            app.use('/data', limiter);
         });
-        app.use((req, res, next) => {
+        app.use('/data', (req, res, next) => {
             let LimitReached = false;
             let result = {};
             _.forEach(LIMITERS, (item, i) => {
