@@ -7,7 +7,7 @@ expressWs(router);
 
 router.get('/data', dataController.getData);
 router.ws('/last', iexController.handleLastWS);
-router.ws('/quote', iexController.handleQuoteWS);
+router.ws('/ohlc', iexController.handleOHLCWS);
 
 
 module.exports = router;
